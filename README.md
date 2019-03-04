@@ -41,18 +41,18 @@ You can revise it or add new configuration in this file.
 
 ### Style Configuration
 ```
-The basic style: *src/assets/style/base.css*
+The basic style: _src/assets/style/base.css_
 Revising is not be recommended.
 </br>
 </br>
-The common style: *src/assets/style/common.less*
+The common style: _src/assets/style/common.less_
 If the style in vue can't work,you can add your style code in this file.
 Plaease write note to explain the style code you add.
 ```
 
 ### Request Configuration
 ```
-The axios's configuration: *src/assets/js/request/api.js*
+The axios's configuration: _src/assets/js/request/api.js_
 </br>
 The url of request: *src/assets/js/request/requestUrl.js*
 You can add new url in this file
