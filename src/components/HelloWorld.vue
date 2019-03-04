@@ -46,10 +46,10 @@ export default {
   },
   mounted () {
     console.log('request=>', this.request)
-    this.request.httpPost(this.requestUrl.url.homePageLayout)
+    /* this.request.httpPost(this.requestUrl.url.homePageLayout)
       .then(data => {
         console.log(data)
-      })
+      }) */
   }
 }
 </script>
