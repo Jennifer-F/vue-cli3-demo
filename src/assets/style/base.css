@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* 禁用iPhone中Safari的字号自动调整,如横屏时会重新计算 */
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%;
+	width: 100%;
+}
+body{
+	overflow: hidden;
+	height: 100%;
+}
+input,textarea{
+	border: none;
+	outline-style: none;
+	font-size: inherit;
+	tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	FILTER: alpha(opacity=0);
+	-moz-appearance:none;
+ 	-webkit-appearance:none;
+	font-family:'PingFangSC-Regular', 'Microsoft YaHei', Helvetica, '宋体', sans-serif;
+}
+input:-webkit-autofill{
+	background: rgba(0,0,0,0) !important;
+	background-image: none;
+	color: #000;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"], input[type="reset"], input[type="button"], input {
+	-webkit-appearance: none;
+	resize: none;
+	font-size: inherit;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    background: rgba(0, 0, 0, 0) !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+    -webkit-tap-highlight-color:rgba(0,0,0,0) !important;
+}
+/* 取消链接高亮  */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing:border-box;
+}
+
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* 图片自适应 */
+img {
+	width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+	-ms-interpolation-mode: bicubic;/*为了照顾ie图片缩放失真*/
+	border: none;
+}
+
+/* 初始化 */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-weight: normal;
+}
+body {
+	font-family:'PingFangSC-Regular','Microsoft YaHei',Helvetica, sans-serif;
+	color: #333333;
+	background-color: #efeff4;
+	height: 100%;
+	width: 100%;
+}
+em, i {
+	font-style: normal;
+}
+s {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, ol {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-family: 'PingFangSC-Regular','Microsoft YaHei',Helvetica;
+}
+
+/* .iphXtop { */
+	/* Status bar height on iOS 11.0 */
+	/* padding-top: constant(safe-area-inset-top) !important; */
+	/* Status bar height on iOS 11+ */
+	/* padding-top: env(safe-area-inset-top) !important; */
+	/*box-sizing: content-box;*/
+	/*-webkit-box-sizing: content-box;*/
+	/*-moz-box-sizing: content-box;*/
+/* } */
+/* .iphXbottom { */
+	/* Status bar height on iOS 11.0 */
+	/* padding-bottom: constant(safe-area-inset-bottom) !important; */
+	/* Status bar height on iOS 11+ */
+	/* padding-bottom: env(safe-area-inset-bottom) !important; */
+	/*box-sizing: content-box;*/
+	/*-webkit-box-sizing: content-box;*/
+	/*-moz-box-sizing: content-box;*/
+/* } */

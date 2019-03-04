@@ -45,7 +45,11 @@ export default {
     this.name = 'hello world'
   },
   mounted () {
-    console.log(process.env.VUE_APP_SECRET)
+    console.log('request=>', this.request)
+    this.request.httpPost(this.requestUrl.url.homePageLayout)
+      .then(data => {
+        console.log(data)
+      })
   }
 }
 </script>
