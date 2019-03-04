@@ -31,30 +31,29 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Code Introduce
 
-## Attention: this project use Eslint + Standard to be a inspection tool
+## *this project use Eslint + Standard to be a inspection tool*
 
 ### Vue Configuration
-```
-· The config of Vue: vue.config.js
+<br>
+* The config of Vue: *vue.config.js*
   You can revise it or add new configuration in this file.
-```
-
+<br>
+<br>
 ### Style Configuration
-```
-· The basic style: src/assets/style/base.css
+<br>
+* The basic style: *src/assets/style/base.css*
   Revising is not be recommended.
-
-
-· The common style: src/assets/style/common.less
+<br>
+* The common style: *src/assets/style/common.less*
   If the style in vue can't work,you can add your style code in this file.
-  Plaease write note to explain the style code you add.
-```
-
+  **Plaease write note to explain the style code you add.**
+<br>
+<br>
 ### Request Configuration
-```
-· The axios's configuration: src/assets/js/request/api.js
-
-· The url of request: src/assets/js/request/requestUrl.js
+<br>
+* The axios's configuration: *src/assets/js/request/api.js*
+<br>
+* The url of request: *src/assets/js/request/requestUrl.js*
   You can add new url in this file
-```
+
 
