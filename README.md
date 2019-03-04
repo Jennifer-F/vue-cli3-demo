@@ -49,6 +49,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 · The common style: `src/assets/style/common.less`
 <br>
   If the style in vue can't work,you can add your style code in this file.
+<br>
 **Plaease write note to explain the style code you add.**
 
 ### Request Configuration
