@@ -35,25 +35,23 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Vue Configuration
 <br>
-· The config of Vue: *vue.config.js*<br>
+· The config of Vue: `vue.config.js`<br>
   You can revise it or add new configuration in this file.<br>
-<br>
-<br>
+
 ### Style Configuration
 <br>
-· The basic style: *src/assets/style/base.css*<br>
+· The basic style: `src/assets/style/base.css`<br>
   Revising is not be recommended.<br>
 <br>
-· The common style: *src/assets/style/common.less*<br>
+· The common style: `src/assets/style/common.less`<br>
   If the style in vue can't work,you can add your style code in this file.<br>
-  **Plaease write note to explain the style code you add.**<br>
-<br>
-<br>
+**Plaease write note to explain the style code you add.**<br>
+
 ### Request Configuration
 <br>
-· The axios's configuration: *src/assets/js/request/api.js*<br>
+· The axios's configuration: `src/assets/js/request/api.js`<br>
 <br>
-· The url of request: *src/assets/js/request/requestUrl.js*<br>
+· The url of request: `src/assets/js/request/requestUrl.js`<br>
   You can add new url in this file
 
 
