@@ -8,9 +8,9 @@ import axios from 'axios'
 //  axios 配置
 axios.defaults.timeout = 10000
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
-axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:8085' : 'http://localhost:8080'
+axios.defaults.baseURL = process.env.VUE_APP_BASE_API
 axios.defaults.withCredentials = false
-
+console.log('process.env=>', process.env)
 // POST传参序列化
 axios.interceptors.request.use((config) => {
   /* if (config.method === 'post') { // 根据项目需求是否需要转换格式
